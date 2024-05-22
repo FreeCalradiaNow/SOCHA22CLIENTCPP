@@ -1,0 +1,22 @@
+﻿  ALPHABETA.cpp
+C:\2Repositories\GIT\SwcGIT\OSTSEEclient\ALPHABETA.cpp(150,87): warning C4334: "<<": Das Ergebnis der 32-Bit-Verschiebung wurde implizit in 64 Bits konvertiert. (War eine 64-Bit-Verschiebung vorgesehen?)
+  EVALUATION.cpp
+  GAMESTATE.cpp
+  NETWORK.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  OSTSEEclient.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\2Repositories\GIT\SwcGIT\OSTSEEclient\OSTSEEclient.cpp(68,105): warning C4474: "printf": zu viele Argumente für Formatzeichenfolge übergeben
+  C:\2Repositories\GIT\SwcGIT\OSTSEEclient\OSTSEEclient.cpp(68,105):
+  Platzhalter und deren Parameter erwarten 4 variadic-Argumente, es wurden aber 5 variadic-Argumente bereitgestellt.
+  
+  PARSER.cpp
+  TRANSPOSITIONTABLE.cpp
+  Code wird generiert...
+  OSTSEEclient.vcxproj -> C:\2Repositories\GIT\SwcGIT\OSTSEEclient\x64\Debug\OSTSEEclient.exe
