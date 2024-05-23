@@ -49,17 +49,17 @@ Team PARSER::parseTeam(const pugi::xml_attribute& xml) {
 PieceType PARSER::parsePieceType(const pugi::xml_attribute& xml) {
     PieceType pieceType{};
 
-    if (std::strcmp(xml.value(), "MOEWE") == 0) {
+    if (std::strcmp(xml.value(), "Moewe") == 0) {
         pieceType = MOEWE;
     }
-    else if (std::strcmp(xml.value(), "SEESTERN") == 0) {
+    else if (std::strcmp(xml.value(), "Seestern") == 0) {
         pieceType = SEESTERN;
     }
-    else if (std::strcmp(xml.value(), "ROBBE") == 0) {
+    else if (std::strcmp(xml.value(), "Robbe") == 0) {
         pieceType = ROBBE;
     }
     else {
-        assert(std::strcmp(xml.value(), "HERZMUSCHEL") == 0);
+        assert(std::strcmp(xml.value(), "Herzmuschel") == 0);
     }
 
     return pieceType;
