@@ -1,7 +1,7 @@
+#include "DEFINITION.hpp"
+#include "PARSER.hpp"
 #include <assert.h>
 #include <cstring>
-#include "PARSER.hpp"
-#include "DEFINITION.hpp"
 
 //Analysiert XML-Attributkoordinate und gibt den Wert als Ganzzahl zurück. Stellt sicher, dass die Koordinate zwischen 0 und 7 liegt
 int PARSER::parseCoord(const pugi::xml_attribute& xml) {

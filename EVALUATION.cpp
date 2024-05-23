@@ -1,5 +1,5 @@
-#include "EVALUATION.hpp"
 #include "DEFINITION.hpp"
+#include "EVALUATION.hpp"
 
 /*Tabelle, die für jedes Schachbrett-Feld und jede Schachfigur einen Wert enthält.
 Die Werte repräsentieren die Stärke oder den Wert der Figur auf einem bestimmten Feld.*/

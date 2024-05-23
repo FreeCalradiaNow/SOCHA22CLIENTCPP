@@ -1,3 +1,5 @@
+#include "DEFINITION.hpp"
+#include "NETWORK.hpp"
 #include <boost/asio.hpp>
 #include <chrono>
 #include <cstddef>
@@ -5,8 +7,6 @@
 #include <stdexcept>
 #include <stdio.h>
 #include <string>
-#include "NETWORK.hpp"
-#include "DEFINITION.hpp"
 
 Network::Network(const std::string& host, const int port, const std::string& reservation) {
     boost::asio::ip::tcp::endpoint endpoint;

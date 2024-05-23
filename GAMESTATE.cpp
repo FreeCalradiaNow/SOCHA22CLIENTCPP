@@ -1,11 +1,11 @@
+#include "DEFINITION.hpp"
+#include "GAMESTATE.hpp"
 #include <algorithm>
 #include <cassert>
 #include <ctype.h>
 #include <functional>
 #include <string>
 #include <vector>
-#include "DEFINITION.hpp"
-#include "GAMESTATE.hpp"
 
 #define RANDOM_SEED_A 1103515495
 #define RANDOM_SEED_B 12345

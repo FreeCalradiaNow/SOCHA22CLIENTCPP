@@ -1,6 +1,6 @@
 #pragma once
-#include <stdint.h>
 #include "DEFINITION.hpp"
+#include <stdint.h>
 /*Eine Transpositionstabelle ist ein Cache von zuvor gesehenen Positionen und 
 den zugehörigen Bewertungen in einem Spielbaum, der von einer Schach-Engine generiert wird.
 Wenn eine Position über eine andere Sequenz von Zügen erneut auftritt, wird der Wert der Position aus der Tabelle abgerufen, 

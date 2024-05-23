@@ -1,8 +1,8 @@
 #pragma once
+#include "DEFINITION.hpp"
 #include <stdint.h>
 #include <string>
 #include <vector>
-#include "DEFINITION.hpp"
 
 #define FIELD_COUNT 64 //Spielfelder (0 bis 63)
 #define MAX_SCORE 2 //Bernsteine

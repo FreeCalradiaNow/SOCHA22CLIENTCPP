@@ -1,6 +1,6 @@
+#include "TRANSPOSITIONTABLE.hpp"
 #include <assert.h>
 #include <cstdlib>
-#include "TRANSPOSITIONTABLE.hpp"
 
 TranspositionTable::TranspositionTable() { //Konstruktor für die TranspositionTable-Klasse
     table = (Transposition*)std::calloc(TRANSPOSITION_TABLE_SIZE, sizeof(Transposition));
