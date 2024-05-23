@@ -1,14 +1,14 @@
+#include "ALPHABETA.hpp"
+#include "DEFINITION.hpp"
+#include "EVALUATION.hpp"
+#include "GAMESTATE.hpp"
+#include "TRANSPOSITIONTABLE.hpp"
 #include <algorithm>
 #include <assert.h>
 #include <chrono>
 #include <limits.h>
 #include <stdio.h>
 #include <vector>
-#include "ALPHABETA.hpp"
-#include "DEFINITION.hpp"
-#include "EVALUATION.hpp"
-#include "GAMESTATE.hpp"
-#include "TRANSPOSITIONTABLE.hpp"
 
 AlphaBeta::AlphaBeta(GameState& gameState) : gameState(gameState) {}
 

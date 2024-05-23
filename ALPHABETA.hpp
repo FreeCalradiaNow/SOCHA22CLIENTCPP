@@ -1,8 +1,8 @@
 #pragma once
-#include <stdint.h>
+#include "DEFINITION.hpp"
 #include "GAMESTATE.hpp"
 #include "TRANSPOSITIONTABLE.hpp"
-#include "DEFINITION.hpp"
+#include <stdint.h>
 
 struct MoveValuePair {
     Move move;

@@ -1,8 +1,8 @@
 #pragma once
+#include "DEFINITION.hpp"
 #include <boost/asio.hpp>
 #include <pugixml.hpp>
 #include <string>
-#include "DEFINITION.hpp"
 
 struct Packet {
     Time time;

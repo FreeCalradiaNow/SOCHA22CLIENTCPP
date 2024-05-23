@@ -1,8 +1,8 @@
 #pragma once
-#include <string>
-#include <pugixml.hpp> //NuGet
-#include "GAMESTATE.hpp"
 #include "DEFINITION.hpp"
+#include "GAMESTATE.hpp"
+#include <pugixml.hpp> //NuGet
+#include <string>
 
 
 class PARSER
